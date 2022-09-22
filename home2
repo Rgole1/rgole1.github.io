@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            2nd  site
+        </title>
+    </head>
+    <body>
+        <div  style="text-align:center">
+        <h1 style=" font-family:Ariel, 'Times New Roman', Times, serif">
+            ONE PIECE fAMILY!!!!
+        </h1>
+        <a href="try.html" target="_blank">first assignment</a>
+        <p style="font-family:'Ariel', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+            <b>Caution ZORO IS HERE.</b>
+            <br>
+            <p><a href=#ZORO>zoro</a> &nbsp;   <a href=#Luffy>LUFFY</a> &nbsp;   <a href=#Franky>Franky</a></p>
+        </p>
+        <hr></div>
+        <ol>
+            <li>
+                <h2 id="zoro">  ZORO</h2>
+                <img src="https://c4.wallpaperflare.com/wallpaper/332/915/762/one-piece-roronoa-zoro-hd-wallpaper-preview.jpg" alt="" width=1000 height=1000>
+                <ul>
+                    <li><i> Swordsman ZORO</i></li>
+                </ul>
+            </li> <br>
+            <li>
+                <h3 id="LUFFY"> LUFFY</h3>
+                <img src="https://i.pinimg.com/736x/8f/af/6d/8faf6df6aef91200a417a3e1a78a787b.jpg" width= 1000 height=1000>
+                <ul>
+                  <li>  <i> STRAWHAT LUFFY Gear 5</i></li>
+                </ul>
+            </li><br>
+            <li>
+                <h4 id="FRANKY"> FRANKY</h4>
+                <img src="https://w0.peakpx.com/wallpaper/985/989/HD-wallpaper-franky-anime-one-piece.jpg" width=1000 height= 1000>
+                <ul>
+                   <li><i> Franky the cool one.</i></li> 
+                </ul>
+            </li><br>
+        </ol>
+    </body>
+</html>
