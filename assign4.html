@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+    <style>
+        body{
+            background:linear-gradient(to top, rgba(4, 9,30,0.7), rgba(4, 9,30,0.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5lIdCIlQEeRZ9m-vUBCGC3TBOt9j0nTsNg&usqp=CAU");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width:100%;
+            height:100vh;
+            color: white;
+            margin:0;
+            padding:0;
+
+        }
+
+        .logo{
+            float:left;
+            margin-top:5px;
+            margin-left:5px;
+            cursor:pointer;
+        }
+        .term{
+            float:right;
+            text-decoration: none;
+            color:white;
+            font-size: 35px;
+            margin:5px;
+            margin-top:12px;
+            margin-right:12px;
+            word-spacing: 20px;
+
+        }
+        .term a{
+            text-decoration: none;
+            justify-content: space-evenly;
+            color:white;
+            cursor:pointer;
+            
+        }
+        .mainTable{
+            width:80%;
+            justify-content: center;
+            margin-top: 150px;
+        }
+        .table{
+            justify-content: center;
+            margin-left:180px;
+        }
+        .heading, .table{
+            margin-top:10px;
+        }
+        .mainTable th,td, tr{
+            margin-top:100px;
+            margin-left: 30px;
+            border:3px solid;
+            border-radius: 2px;
+            height:40px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <nav class="heading">
+        <div class="logo">
+            <img src="https://e7.pngegg.com/pngimages/909/655/png-clipart-one-piece-logo-monkey-d-luffy-one-piece-usopp-logo-pirate-hat-manga-jolly-roger.png", alt = "logo" width = 50px height = 50px>
+        </div>
+        <div class="term">
+            
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Manga</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Photo</a>
+
+        </div>
+    </nav>
+   <br>
+   <br>
+   <br>
+   <br>
+    <div class="table">
+        <table class="mainTable">
+            <thead>
+                <tr>
+                    <th colspan = "4" id ="th1" style="font-size:50px">Manga List</th>
+                </tr>
+    
+                <tr>
+                    <th>S.N</th>
+                    <th>Name</th>
+                    <th>Writer</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody class="body">
+                <tr>
+                    <td>1.</td>
+                    <td>One Piece</td>
+                    <td>Nakamota</td>
+                    <td>Lorem ipsum dolor sit amet.</td> 
+                </tr>
+
+                <tr>
+                    <td>2.</td>
+                    <td>Two Piece</td>
+                    <td>Nakamota Ko Dai</td>
+                    <td>Lorem ipsum dolor sit amet.</td> 
+                </tr>
+
+                <tr>
+                    <td>3.</td>
+                    <td>Three Piece</td>
+                    <td>Nakamota Ko Bau</td>
+                    <td>Lorem ipsum dolor sit amet.</td> 
+                </tr>
+                
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>
