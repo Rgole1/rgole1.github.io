@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign09</title>
+    <style>
+        .flex{
+            display: flex;
+        }
+
+        .main{
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main>button{
+            background: none;
+            outline: none;
+            border: 1.5px solid gray;
+            padding: 10px;
+            font-size: 30px;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        .main>button:hover{
+            background-color: rgba(189, 185, 185, 0.1);
+        }
+    </style>
+    <script>
+        function hello(){
+            alert("Hello!")
+        }
+    </script>
+</head>
+<body>
+    <div class="main flex">
+<button onclick="hello()">Press Me</button>
+    </div>
+</body>
+</html>
+
