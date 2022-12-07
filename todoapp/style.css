@@ -42,7 +42,7 @@ body{
 /* Content */
 .content{
     width:350px;
-    height: 330px;
+    height: 250px;
     max-height:350px;
     background-color: #FFF;
     overflow: auto;
