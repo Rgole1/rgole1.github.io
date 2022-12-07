@@ -10,6 +10,8 @@ body{
     margin:20px auto;
     box-shadow: 3px 5px 10px 5px #e5e5e5;
     border-radius: 20px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/604/721/276/anime-one-piece-nico-robin-wallpaper-preview.jpg");
+
 }
 
 /* Header */
@@ -74,7 +76,7 @@ body{
     position: absolute;
     top: 190px;
     margin-left: 15px;
-    color: #FFF;
+    color: #000;
 }
 
 ul li img{
