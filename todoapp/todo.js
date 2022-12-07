@@ -90,7 +90,7 @@ function addToDo(toDo, id, done, trash){
     const item = `<li class="item">
                         <img src="${DONE}" job="complete" id="${id}">
                         <p class="text">${toDo}</p>
-                        <img src="images/bin.svg" job="delete" id="${id}">
+                        <img src="https://toppng.com/uploads/preview/recycling-bin-vector-delete-icon-png-black-11563002079w1isxqyyiv.png" job="delete" id="${id}">
                         </li>`;
     const position = "beforeend";
     list.insertAdjacentHTML(position, item);
