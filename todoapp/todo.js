@@ -16,8 +16,8 @@ date.innerHTML = today.toLocaleDateString('en-US', options);
 let JOB_LIST, id;
 
 //Path for check and uncheck images
-const CHECK = "images/success.svg";
-const UNCHECK = "images/circle.svg";
+const CHECK = "https://www.citypng.com/public/uploads/preview/free-green-check-mark-in-box-icon-png-11640258356xykohamgif.png";
+const UNCHECK = "https://img.icons8.com/ios/500/unchecked-checkbox.png";
 
 //retrive item from localstorage
 function retriveData(){
